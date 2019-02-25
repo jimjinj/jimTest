@@ -1,12 +1,12 @@
 CC = gcc
-OBJ = aTest.o bTest.o
+OBJ = a2Test.o b2Test.o
 
-all: aTest
+all: a2Test
 
-aTest: $(OBJ)
+a2Test: $(OBJ)
 	$(CC) -o $@ $^
 
-$(OBJ): zABCD.h
+$(OBJ): z2ABCD.h
 
 .PHONY:clean
 clean:
